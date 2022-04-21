@@ -1,0 +1,23 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div[class*="col-"] {
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h2 {
+    padding: 0.25em 0;
+}
+.h2-empty {
+    color: white;
+}
