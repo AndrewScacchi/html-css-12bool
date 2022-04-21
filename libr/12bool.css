@@ -15,6 +15,27 @@
     flex: 0 0 auto;
 }
 
+.flex-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.flex-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.space-around {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+.height-2x {
+    height: 6em;
+}
 /* Col layout */
 
 .col-1 {
