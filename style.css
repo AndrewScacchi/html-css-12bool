@@ -13,11 +13,18 @@ div[class*="col-"] {
     border: 1px solid white;
     text-align: center;
     vertical-align: middle;
+    min-height: 3em;
 }
 
-h2 {
+div.nested-box {
+    background-color: green;
+    
+    padding: 1em 0.25em;
+}
+
+h2, h3 {
     padding: 0.25em 0;
 }
-.h2-empty {
+.h3-empty {
     color: white;
 }
