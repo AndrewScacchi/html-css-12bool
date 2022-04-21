@@ -35,6 +35,7 @@ h2, h3 {
     margin: 1em auto;
     padding: 2em;
     height: 5em;
+    border: 5px dashed orange;
 }
 .centered:hover {
     background-image: repeating-linear-gradient(135deg, orange 0%, orange 5%, yellow 5%, yellow 10%);
